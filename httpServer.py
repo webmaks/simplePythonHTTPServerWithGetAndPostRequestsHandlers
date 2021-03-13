@@ -5,8 +5,7 @@ Usage::
 """
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
-import cgi
-from io import BytesIO
+
 
 class S(BaseHTTPRequestHandler):
     def _set_response(self):
